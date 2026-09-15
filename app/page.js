@@ -29,8 +29,8 @@ export default function WelcomePage() {
             <GraduationCap size={22} strokeWidth={2.25} />
           </div>
           <div>
-            <p className="font-display text-sm font-semibold">Beida Basic School</p>
-            <p className="text-xs text-ink-300">Powered by As Code Elevate</p>
+            <p className="font-display text-sm font-semibold">Powered by As Code Elevate</p>
+            {/* <p className="text-xs text-ink-300">Powered by As Code Elevate</p> */}
           </div>
         </div>
 
@@ -48,13 +48,13 @@ export default function WelcomePage() {
         <div className="relative mt-16 grid max-w-md grid-cols-2 gap-4">
           <div className="rounded-xl border border-white/10 bg-white/5 p-4">
             <ClipboardList size={18} className="text-amber-300" />
-            <p className="mt-3 font-display text-2xl font-semibold">25</p>
+            <p className="mt-3 font-display text-2xl font-semibold">3,000</p>
             <p className="text-xs text-ink-300">students currently enrolled</p>
           </div>
           <div className="rounded-xl border border-white/10 bg-white/5 p-4">
             <PieChart size={18} className="text-amber-300" />
-            <p className="mt-3 font-display text-2xl font-semibold">6</p>
-            <p className="text-xs text-ink-300">classes running this term</p>
+            <p className="mt-3 font-display text-2xl font-semibold">20</p>
+            <p className="text-xs text-ink-300">schools running this term</p>
           </div>
         </div>
       </div>
