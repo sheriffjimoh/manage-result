@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f5f0;
+  color: #101426;
+}
+
+::selection {
+  background-color: #e1defb;
+  color: #241a55;
+}
+
+/* Consistent focus ring across every interactive element */
+:focus-visible {
+  outline: 2px solid #5f45d1;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Thin, quiet scrollbar for the sidebar and tables */
+.scroll-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+}
+.scroll-thin-light::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 20, 38, 0.15);
+  border-radius: 999px;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-area {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
