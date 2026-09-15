@@ -21,8 +21,8 @@ export default function WelcomePage() {
     <div className="grid min-h-screen lg:grid-cols-2">
       {/* Left: brand + pitch */}
       <div className="relative flex flex-col justify-between overflow-hidden bg-ink-900 px-8 py-10 text-white sm:px-14 sm:py-14">
-        <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-brand-600/40 blur-3xl" />
-        <div className="pointer-events-none absolute -left-16 bottom-0 h-64 w-64 rounded-full bg-amber-400/20 blur-3xl" />
+        {/* <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-brand-600/40 blur-3xl" /> */}
+        {/* <div className="pointer-events-none absolute -left-16 bottom-0 h-64 w-64 rounded-full bg-amber-400/20 blur-3xl" /> */}
 
         <div className="relative flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400 text-ink-900">
